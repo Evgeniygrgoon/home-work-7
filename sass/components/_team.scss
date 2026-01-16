@@ -1,4 +1,6 @@
 /* Фон секции "наша команда" */
+@use './base/vars';
+
 .team {
   background-color: #f5f4fa;
 }
@@ -44,5 +46,5 @@
   margin-bottom: 30px;
   font-size: 16px;
   font-weight: 400;
-  color: $brandgrey;
+  color: vars.$brandgrey;
 }

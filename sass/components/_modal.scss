@@ -1,3 +1,5 @@
+@use './base/vars';
+
 .modal {
   position: fixed;
   top: 0;
@@ -41,7 +43,7 @@
 }
 
 .modal_svg {
-  fill:$brandblack;
+  fill:vars.$brandblack;
   position: absolute;
   left: 490px;
   top:8px;
@@ -60,6 +62,6 @@
 
   &:hover ,
   &focus {
-  fill: $brandcolor;
+  fill: vars.$brandcolor;
 }
 }

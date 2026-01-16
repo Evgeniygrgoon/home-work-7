@@ -1,4 +1,6 @@
 /* сброс стилей */
+@use './vars';
+
 *,
 *::before,
 *::after {
@@ -6,7 +8,7 @@
 }
 
 a {
-  color: $brandblack;
+  color:vars.$brandblack;
 }
 
 a:visited {
@@ -56,8 +58,8 @@ ol[class] {
 .body {
   position: relative;
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  font-weight: $mainfontweight;
-  color: $brandblack;
+  font-weight: vars.$mainfontweight;
+  color:vars.$brandblack;
 }
 
 .body ul {
@@ -71,7 +73,7 @@ ol[class] {
 }
 
 /* убираем декорацию для всех ссылок */
-.body a {
+a {
   text-decoration: none;
 }
 

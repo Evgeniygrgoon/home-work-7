@@ -1,8 +1,10 @@
+@use './base/vars';
+
 .hero {
   background-image:
    linear-gradient(to bottom, rgba(47, 48, 58, 0.4)),
    url(../../images/img-background.jpg);
-  background-color: $darkbackground;
+  background-color: vars.$darkbackground;
   height: 600px;
   width: 1600px;
   margin: 0% auto;
@@ -22,7 +24,7 @@
 
 /*  стиль кнопки "заказать услугу" */
 .hero_button {
-  background-color: $brandcolor;
+  background-color: vars.$brandcolor;
   width: 200px;
   height: 50px;
   border-radius: 4px;

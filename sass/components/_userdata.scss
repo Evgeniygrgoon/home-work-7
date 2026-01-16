@@ -1,3 +1,5 @@
+@use './base/vars';
+
 .userdata {
   display: flex;
   width: 100%;
@@ -44,17 +46,17 @@ padding-top: 40px;
 
       &:hover > .userdata_icon,
        &:focus-within > .userdata_icon{
-      fill:$brandcolor;
+      fill:vars.$brandcolor;
       }
 
       &:hover > .userdata_input,
       &:focus-within > .userdata_input{
-        border-color: $brandcolor;
+        border-color: vars.$brandcolor;
       }
 
       &:hover > .userdata_textarea,
       &:focus-within > .userdata_textarea {
-      border-color: $brandcolor;
+      border-color: vars.$brandcolor;
       }
 
 }
@@ -80,7 +82,7 @@ padding-top: 40px;
         &:focus {
         border-style: solid;
         border-width: 1px;
-        border-color: $brandcolor;
+        border-color: vars.$brandcolor;
         outline: none; 
       }
 }
@@ -88,7 +90,7 @@ padding-top: 40px;
 
 
 .userdata_icon {
-  fill: $brandblack;
+  fill:vars.$brandblack;
   position: absolute;
   top: 35px;
   left: 15px;                                   
@@ -123,7 +125,7 @@ padding-top: 40px;
  height: 50px;
  border: 0;
  border-radius: 4px;
- background-color: $brandcolor;
+ background-color: vars.$brandcolor;
  color: #f5f4fa;
  font-size: 16px;
  font-weight: 700;

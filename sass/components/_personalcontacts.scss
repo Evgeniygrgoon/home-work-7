@@ -1,3 +1,5 @@
+@use './base/vars';
+
 .PersonalContacts {
   display: flex;
   justify-content: space-around;
@@ -22,7 +24,7 @@
 
   &:hover ,
   &focus {
-   background-color: $brandcolor;
+   background-color: vars.$brandcolor;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   }
 
